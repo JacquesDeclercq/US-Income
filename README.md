@@ -1,6 +1,6 @@
 # US-Income Project
 
-Predict the income of a US citizen based <.
+Predict the income of a US citizen based.
 
 ## Mission objectives
 
