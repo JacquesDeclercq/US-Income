@@ -75,6 +75,7 @@ And these are the results of our tuned model with Gridsearch & n_job : -1 (we us
 And these are the results of our tuned model with Gridsearch & without n_job : -1 (we used Kfold : 10)
 
 <img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.07.28.png" width="450">
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.07.44.png" width="450">
 
 As u can see these parameters gave us the best score for the train and test set.
 <img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.07.10.png" width="450">
