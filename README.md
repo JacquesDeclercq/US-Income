@@ -105,7 +105,7 @@ What about the accuracy, you say ?
 
 
 ## Conclusion
-I'v kept the Train & Test set seperated, to make sure I don't cause a overfitting problem from the get-go. To avoid over-fitting in random forest, the main thing you need to do is optimize a tuning parameter that governs the number of features that are randomly chosen to grow each tree from the bootstrapped data. Typically, you do this via 𝑘-fold cross-validation, where 𝑘={5,10}, and choose the tuning parameter that minimizes test sample prediction error. In addition, growing a larger forest will improve predictive accuracy, although there are usually diminishing returns once you get up to several hundreds of trees. 
+I'v kept the Train & Test set seperated, to make sure I don't cause a overfitting problem from the get-go. The OHE dataset/test didn't bring any better score. To avoid over-fitting in random forest, the main thing you need to do is optimize a tuning parameter that governs the number of features that are randomly chosen to grow each tree from the bootstrapped data. Typically, you do this via 𝑘-fold cross-validation, where 𝑘={5,10}, and choose the tuning parameter that minimizes test sample prediction error. In addition, growing a larger forest will improve predictive accuracy, although there are usually diminishing returns once you get up to several hundreds of trees. 
 
 
 ## Contributing
