@@ -38,10 +38,14 @@ from sklearn.metrics import confusion_matrix,classification_report,accuracy_scor
 
 ### Step 1
 The data has been cleaned already. Last check for NaN Values
+
+
 <img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.15.11.png" width="350">
 
 ### Step 2
 Create the Train & Test set with and without one-hot-encoding
+
+
 <img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.15.27.png" width="350">
 
 ### Step 3
