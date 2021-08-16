@@ -61,12 +61,18 @@ Create the Train & Test set with and without one-hot-encoding
 
 
 ### Step 4
-These are the base parameters used :
+These are the parameters we hyper-tuned :
 
-And these are the results of our tuned model :
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.06.14.png" width="350">
+
+And these are the results of our tuned model with Gridsearch & n_job : -1 (we used Kfold : 3)
+
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.06.41.png" width="350">
+https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.06.58.png
 
 ### Step 5
 As u can see these parameters gave us the best score for the train and test set.
+https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.07.10.png
 
 
 ## Conclusion
