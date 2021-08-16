@@ -31,7 +31,8 @@ from yellowbrick.model_selection import validation_curve
 ```
 
 ## Miscellaneous Information
-- Datasets : links
+- Datasets : - [../../../additional_resources/datasets/US Income/cleaned/data_train.csv](../../../additional_resources/datasets/US%20Income/cleaned/data_train.csv)..
+- [../../../additional_resources/datasets/US Income/cleaned/data_test.csv](../../../additional_resources/datasets/US%20Income/cleaned/data_test.csv)
 
 ## Workflow
 1. The data is preprocessed already.
