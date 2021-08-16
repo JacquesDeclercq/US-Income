@@ -81,6 +81,13 @@ As u can see these parameters gave us the best score for the train and test set.
 <img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.07.10.png" width="450">
 
 
+### Step 4
+
+With RandomsearchCV (Computation time is significantly reduced)
+
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.07.54.png" width="450">
+
+
 ## Conclusion
 I'v kept the Train & Test set seperated, to make sure I don't cause a overfitting problem from the get-go. To avoid over-fitting in random forest, the main thing you need to do is optimize a tuning parameter that governs the number of features that are randomly chosen to grow each tree from the bootstrapped data. Typically, you do this via 𝑘-fold cross-validation, where 𝑘={5,10}, and choose the tuning parameter that minimizes test sample prediction error. In addition, growing a larger forest will improve predictive accuracy, although there are usually diminishing returns once you get up to several hundreds of trees. 
 
