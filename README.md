@@ -17,13 +17,17 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install librari
 ## Usage
 
 ```python
-import pandas
-import numpy
-import seaborn
-import matplotlib.pyplot as plot
+import pandas as pd
+import seaborn as sns
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.pyplot import style
+style.use('seaborn-whitegrid')
+%matplotlib inline
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split,cross_val_score,KFold,GridSearchCV,RandomizedSearchCV
+from sklearn.model_selection import train_test_split,cross_val_score,KFold,GridSearchCV
 from sklearn.metrics import confusion_matrix,classification_report,accuracy_score
+from yellowbrick.model_selection import validation_curve 
 ```
 
 ## Miscellaneous Information
