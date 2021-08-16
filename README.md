@@ -38,13 +38,23 @@ from sklearn.metrics import confusion_matrix,classification_report,accuracy_scor
 
 ### Step 1
 The data has been cleaned already. Last check for NaN Values
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.15.11.png" width="350">
 
 ### Step 2
 Create the Train & Test set with and without one-hot-encoding
-image!
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.15.27.png" width="350">
 
 ### Step 3
 Our Baseline Accuracy
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.11.png" width="350">
+Confusion Matrix
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.30.png" width="350">
+Cross Validation Score
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.40.png" width="350">
+Features Importance
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.47.png" width="350">
+
+
 
 ### Step 4
 These are the base parameters used :
