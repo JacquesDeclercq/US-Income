@@ -40,13 +40,13 @@ from sklearn.metrics import confusion_matrix,classification_report,accuracy_scor
 The data has been cleaned already. Last check for NaN Values
 
 
-<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.15.11.png" width="350">
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.15.11.png" width="450">
 
 ### Step 2
 Create the Train & Test set with and without one-hot-encoding
 
 
-<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.15.27.png" width="350">
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.15.27.png" width="450">
 
 ### Step 3
 1. Our Baseline Accuracy
@@ -63,16 +63,21 @@ Create the Train & Test set with and without one-hot-encoding
 ### Step 4
 These are the parameters we hyper-tuned :
 
-<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.06.14.png" width="350">
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.06.14.png" width="450">
 
 And these are the results of our tuned model with Gridsearch & n_job : -1 (we used Kfold : 3)
 
-<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.06.41.png" width="350">
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.06.41.png" width="450">
 https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.06.58.png
 
-### Step 5
+### Step 4
+
+And these are the results of our tuned model with Gridsearch & without n_job : -1 (we used Kfold : 10)
+
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.07.28.png" width="450">
+
 As u can see these parameters gave us the best score for the train and test set.
-<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.07.10.png" width="350">
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.07.10.png" width="450">
 
 
 ## Conclusion
