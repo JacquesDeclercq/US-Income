@@ -45,14 +45,10 @@ Create the Train & Test set with and without one-hot-encoding
 <img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.15.27.png" width="350">
 
 ### Step 3
-Our Baseline Accuracy
-<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.11.png" width="350">
-Confusion Matrix
-<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.30.png" width="350">
-Cross Validation Score
-<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.40.png" width="350">
-Features Importance
-<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.47.png" width="350">
+Our Baseline Accuracy <img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.11.png" width="350">
+Confusion Matrix <img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.30.png" width="350">
+Cross Validation Score <img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.40.png" width="350">
+Features Importance <img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.47.png" width="350">
 
 
 
