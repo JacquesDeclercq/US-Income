@@ -53,10 +53,10 @@ Create the Train & Test set with and without one-hot-encoding
 2. Confusion Matrix
 3. Cross Validation Score
 4. Feature Importance
-<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.11.png" width="350">
-<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.30.png" width="350">
-<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.40.png" width="350">
-<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.47.png" width="350">
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.11.png" width="450">
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.30.png" width="450">
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.40.png" width="450">
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.47.png" width="450">
 
 
 
@@ -72,7 +72,7 @@ https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-
 
 ### Step 5
 As u can see these parameters gave us the best score for the train and test set.
-https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.07.10.png
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.07.10.png" width="350">
 
 
 ## Conclusion
