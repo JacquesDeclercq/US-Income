@@ -22,19 +22,41 @@ import numpy
 import seaborn
 import matplotlib.pyplot as plot
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split,cross_val_score,KFold,GridSearchCV
+from sklearn.model_selection import train_test_split,cross_val_score,KFold,GridSearchCV,RandomizedSearchCV
 from sklearn.metrics import confusion_matrix,classification_report,accuracy_score
 ```
 
 ## Miscellaneous Information
 - Datasets : links
 
-## Steps
+## Workflow
 1. The data is preprocessed already.
 2. Create 2 DF's, Train, Test Set with and without one hot encoding.
 3. Fit the Train sets in to the model for a baseline accuracy
-4. Tune the hyperparameters of the RandomForestClassifier & Gridsearch
+4. Tune the hyperparameters of the RandomForestClassifier, Gridsearch & RandomsearchCV
 5. Look for the best parameters.
+
+### Step 1
+The data has been cleaned already. Last check for NaN Values
+
+### Step 2
+Create the Train & Test set with and without one-hot-encoding
+image!
+
+### Step 3
+Our Baseline Accuracy
+
+### Step 4
+These are the base parameters used :
+
+And these are the results of our tuned model :
+
+### Step 5
+As u can see these parameters gave us the best score for the train and test set.
+
+
+## Conclusion
+I'v kept the Train & Test set seperated, to make sure I don't cause a overfitting problem from the get-go. To avoid over-fitting in random forest, the main thing you need to do is optimize a tuning parameter that governs the number of features that are randomly chosen to grow each tree from the bootstrapped data. Typically, you do this via 𝑘-fold cross-validation, where 𝑘={5,10}, and choose the tuning parameter that minimizes test sample prediction error. In addition, growing a larger forest will improve predictive accuracy, although there are usually diminishing returns once you get up to several hundreds of trees. 
 
 
 ## Contributing
