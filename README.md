@@ -50,12 +50,22 @@ Create the Train & Test set with and without one-hot-encoding
 
 ### Step 3
 1. Our Baseline Accuracy
-2. Confusion Matrix
-3. Cross Validation Score
-4. Feature Importance
+
 <img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.11.png" width="450">
+
+2. Confusion Matrix
+
 <img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.30.png" width="450">
+
+3. Cross Validation Score & Curve
+
 <img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.40.png" width="450">
+
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/crossvalidationcurve.png" width="450">
+
+
+6. Feature Importance
+
 <img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.05.47.png" width="450">
 
 
