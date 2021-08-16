@@ -68,7 +68,7 @@ These are the parameters we hyper-tuned :
 And these are the results of our tuned model with Gridsearch & n_job : -1 (we used Kfold : 3)
 
 <img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.06.41.png" width="450">
-https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.06.58.png
+<img src="https://github.com/JacquesDeclercq/US-Income/blob/main/Images/Screenshot%202021-08-16%20at%2015.06.58.png" width="450">
 
 ### Step 4
 
